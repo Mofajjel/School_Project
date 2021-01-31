@@ -14,7 +14,7 @@ int main()
     // MENU
     while(true)
     {
-    cout << " ********* MENU ************************************************** \n";
+    cout << "*********** MENU ************************************************** \n";
     cout << "***\t PRESS 1 FOR RICKSHAW. COST OF PARKING IS TK 100. \n";
     cout << "***\t PRESS 2 FOR CARS OR TAXI. COST OF PARKING IS TK 200. \n";
     cout << "***\t PRESS 3 FOR BUSES. COST OF PARKING IS TK 300. \n";
@@ -31,6 +31,8 @@ int main()
         amount=amount+100;
         counts=counts+1;
         r++;
+        system("cls");
+        cout << " Rickshaw is added \n";
         }
         else
         {
@@ -44,6 +46,8 @@ int main()
         amount=amount+200;
         counts=counts+1;
         c++;
+        system("cls");
+        cout << "Car is added \n";
         }
         else
         {
@@ -57,6 +61,8 @@ int main()
         amount=amount+300;
         counts=counts+1;
         b++;
+        system("cls");
+        cout << "Bus is added \n";
         }
         else
         {
@@ -81,8 +87,8 @@ int main()
         c=0;
         r=0;
         cout << "000000000000000000000000000000\n";
-        cout << "000\t RECORD DELETED \t 000 \n";
-        cout << "000000000000000000000000000000000\n";
+        cout << "000\t RECORD DELETED    000 \n";
+        cout << "000000000000000000000000000000\n";
     }
     else
     {
